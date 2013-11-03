@@ -1,0 +1,33 @@
+.circle-menu{
+	position: relative;
+	width: 30px;
+	height: 30px;	
+	list-style: none;
+	margin:0 0 ;
+	padding: 0 0;
+	
+}
+.circle-menu span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius:50%;
+	background: #c6c6c6;
+	box-shadow: 0 0 5px #c6c6c6;
+	cursor: pointer;
+	z-index:2;
+}
+
+.circle-menu li{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius:50%;
+	background: #ccc;
+	z-index: 1;
+	cursor: pointer;
+}
+.circle-menu li p{
+	margin:100px 0 0 0;
+}

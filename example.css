@@ -1,0 +1,25 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+	font-family: 'Calibri Light'
+}
+body{
+	background: #f6f6f6;
+}
+h1{
+	font-size: 40px;
+	font-weight: normal;
+}
+#wrapper{
+	width: 80%;
+	overflow: auto;
+	margin:10% auto;
+	
+}
+#wrapper_content{
+	height: 200px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	box-shadow:0 0 5px #ccc;
+}
