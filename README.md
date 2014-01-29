@@ -27,3 +27,13 @@ Start the plugin with
 If you want, include de circle-menu.css file to style the menu in the same way as in the example
 
     <link rel="stylesheet" type="text/css" href="circle-menu.css">
+
+## Options
+
+You can customize the way Circle Menu looks by changing some options.
+
+    $('#menu').circle_menu({
+		angle_initial: -70,
+		angle_increment:60,
+		radius:90		
+	});
