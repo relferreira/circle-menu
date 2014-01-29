@@ -1,9 +1,9 @@
 (function($){
 	$.fn.circle_menu = function(options){
 		var settings = $.extend({
-			angle_initial: 0,
+			angle_initial: -70,
 			angle_increment:60,
-			radius:60
+			radius:90
 		}, options);
 		var flag_click = false;		
 		var angle = (settings.angle_initial*Math.PI)/180;

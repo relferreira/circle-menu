@@ -1,9 +1,5 @@
 $(window).ready(function(){
-	jQuery('.circle-menu').circle_menu({
-		angle_initial: -70,
-		angle_increment:60,
-		radius:90		
-	});
+	jQuery('#menu').circle_menu();
 	jQuery("#menu").on("click",function(){
 		var img = $(this).find("img");
 		if(img.attr("class")=="fechar"){
