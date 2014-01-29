@@ -1,25 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 *{
 	margin: 0 0;
 	padding: 0 0;
-	font-family: 'Calibri Light'
+	font-family: 'Roboto Slab', serif;
 }
 body{
-	background: #f6f6f6;
+	background: #16a085;
 }
 h1{
 	font-size: 40px;
 	font-weight: normal;
 }
 #wrapper{
-	width: 80%;
-	overflow: auto;
-	margin:10% auto;
-	
+	width: 30%;
+	height:400px;
+	margin:20px auto;	
 }
-#wrapper_content{
-	height: 200px;
-	background: #fff;
-	border: 1px solid #ccc;
-	border-radius:5px;
-	box-shadow:0 0 5px #ccc;
+#wrapper h1{
+	text-align: center;
+	color: #fff;
+}
+#menu{
+	position:relative;
+	left:50%;
+	margin:200px 0 0 -30px;
+
 }
