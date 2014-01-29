@@ -1,6 +1,9 @@
 Circle Menu
 ===========
+[Demo](http://cdpn.io/pleoG)
+
 ![Alt text](featured_img.jpg "Optional title")
+
 
 Interactive Menu in a circular shape.
 The plugin is made with Jquery and should work with all browsers.
