@@ -18,7 +18,7 @@ In your html, add the following code
       <li></li> 
       <li></li> 	
     </ul>
-Each <li></li> represents one child menu.
+Each "li" tag represents one child menu.
 
 Start the plugin with
 
